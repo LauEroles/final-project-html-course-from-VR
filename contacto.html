@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <title> Proyecto HTML 5</title>
+        <link rel="icon" type="image/png" href="image/favicom.png"/>
+    </head>
+    <body>
+        <header>
+            <h1>Estructura HTML</h1>
+            <nav>
+                <!--menu-->
+                <ul>
+                    <li> <a href="index.html">Inicio</a></li>
+                    <li> <a href="multimedia.html">Multimedia</a></li>
+                    <li> <a href="dieta.html"> Dieta</a></li>
+                    <li> <a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+    
+        </header>
+        <main>
+            <h2> Contacto</h2>
+            <section id="contacto">
+                <form>
+                    <div>
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre"/>
+                    </div>
+
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" id="email"/>
+                    </div>
+
+                    <div>
+                        <label for="edad">Edad</label>
+                        <input type="number" id="edad"/>
+                    </div>
+
+                    <div>
+                        Genero:
+                        <input type="radio" id="genero" value="Hombre"/>
+                        Hombre
+                        <input type="radio" id="genero" value="Mujer"/>
+                        Mujer
+                        <input type="radio" id="genero" value="Otro"/>
+                        Otro
+                    </div>
+                    <div>
+                        <label for="descripcion">Motivo de contacto</label>
+                        <textarea for="descripcion"></textarea>
+                    </div>
+                    <hr>
+                    <input type="submit" value="Enviar"/>
+                </form>
+            </section>
+            <hr>
+        </main>
+
+        <footer>
+            Proyecto HTML del curso de Victor Robles &copy;2023
+        </footer>
+
+    </body>
+
+
+   
+</html>
